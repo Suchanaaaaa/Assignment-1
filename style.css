@@ -47,7 +47,7 @@ section{
 .section-subtitle{
     text-align:center;
     color:#64748b;
-    font-size:17px;
+    font-size:13px;
     margin-bottom:60px;
     max-width:650px;
     margin-left:auto;
@@ -345,11 +345,11 @@ section{
     font-size:13px;
     font-weight:700;
     letter-spacing:1px;
-    color:#64748b;
+    color:#464d56;
     margin-bottom:12px;
 }
 
-.featured .plan-name{ color:#cbd5e1; }
+.featured .plan-name{ color:#75a9e8; }
 
 .price{
     font-size:48px;
