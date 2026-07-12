@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+
+        <!-- Logo -->
+      <a href="#" class="navbar-logo">
+        <img src="./assets/logo.png" alt="">
+      </a>
+
+        <nav class="nav-menu">
+            <a href="#s">Speakers</a>
+            <a href="#s">Schedule</a>
+            <a href="#t">Tracks</a>
+            <a href="#v">Venue</a>
+            <a href="#B">Blog</a>
+        </nav>
+
+        <!-- Register Button -->
+        <div class="nav-action">
+            <a href="#" class="btn btn-primary">Register Now</a>
+        </div>
+
+    </div>
+</header>
+
+
+<!-- hero section -->
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Code. <em>Connect</em>. Create</h1>
+            <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026.
+                Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
+            <a href="#" class="btn btn-hero">Register Now</a>
+        </div>
+    </section>
+
+<!-- Speaker section -->
+    <section id="speakers" class="speakers-section">
+        <div class="container">
+            <h1 class="section-title">Meet the Speakers</h1>
+            <div class="speaker-grid">
+                <div class="speaker-card">
+                    <div class="speaker-img-wrapper">
+                        <img src="./assets/andrej.png" alt="Portrait of Alex Rivera">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-tag tag-ai">AI / ML</span>
+                        <h3>Andrej Karpathy</h3>
+                        <p>pretraining team, Antropic</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-img-wrapper">
+                        <img src="./assets/demis.png" alt="Portrait of Marcus Odum">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-tag tag-cloud">CLOUD & DEVOPS</span>
+                        <h3>Demis Hassabis</h3>
+                        <p>co-founder and CEO,Google DeppMind</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-img-wrapper">
+                        <img src="./assets/gary.png" alt="Portrait of Priya Shah">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-tag tag-frontend">FRONTEND</span>
+                        <h3>Gary Marcus</h3>
+                        <p>Staff Engineer, Vercel</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-img-wrapper">
+                        <img src="./assets/mustafa.png" alt="Portrait of Daniel Cho">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-tag tag-security">SECURITY</span>
+                        <h3>Mustafa Suleyman</h3>
+                        <p>CEO of Microsoft AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Secure Spot Section (Pricing) -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Secure Your Spot</h2>
+            <p class="section-subtitle">Early bird pricing ends August 15, 2026.</p>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <span class="plan-name">STANDARD</span>
+                        <div class="price">$399</div>
+                        <span class="per-person">per person</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>Access to all 3 conference days</li>
+                        <li>All keynote & technical tracks</li>
+                        <li>2 workshop sessions</li>
+                        <li>Networking lunch & coffee breaks</li>
+                        <li>Conference swag bag</li>
+                        <li>Digital recordings (30 days)</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Standard</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <span class="featured-badge">Most Popular</span>
+                    <div class="card-header">
+                        <span class="plan-name">PRO</span>
+                        <div class="price">$749</div>
+                        <span class="per-person">per person</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>Everything in Standard</li>
+                        <li>Unlimited workshop access</li>
+                        <li>Speaker meet & greet</li>
+                        <li>VIP networking dinner</li>
+                        <li>Lifetime recording access</li>
+                        <li>1-on-1 mentorship (30 min)</li>
+                    </ul>
+                    <button class="btn btn-featured">Get Pro</button>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <span class="plan-name">TEAM</span>
+                        <div class="price">$5,999</div>
+                        <span class="per-person">up to 10 people</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>Everything in Pro included</li>
+                        <li>Dedicated team lounge access</li>
+                        <li>Private track workshop booking</li>
+                        <li>Company logo on event page</li>
+                        <li>Recruitment booth (1 day)</li>
+                        <li>Priority customer support</li>
+                    </ul>
+                    <button class="btn btn-outline">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Featured Learning Tracks Section (Niche niye asha hoyeche) -->
+    <section id="tracks" class="tracks-section">
+        <div class="container">
+            <h2 class="section-title">Featured Learning Tracks</h2>
+            <p class="section-subtitle">Dive deep into architectural trends, hands-on workshops, and production-ready technologies curated by experts.</p>
+
+            <div class="tracks-grid">
+                <div class="track-card">
+                    <div class="track-card-icon">🤖</div>
+                    <h3>Generative AI & LLMs in Production</h3>
+                    <p>Move beyond prompt engineering. Learn how to scale RAG pipelines, fine-tune open-source models safely, and optimize inference costs.</p>
+                    <span class="track-sessions">32 Sessions</span>
+                </div>
+
+                <div class="track-card">
+                    <div class="track-card-icon">⚡</div>
+                    <h3>Next-Gen Frontend Architectures</h3>
+                    <p>Explore Server Components, edge rendering strategies, and advanced state management techniques that achieve perfect Lighthouse scores.</p>
+                    <span class="track-sessions">28 Sessions</span>
+                </div>
+
+                <div class="track-card">
+                    <div class="track-card-icon">☁️</div>
+                    <h3>Cloud-Native & Platform Engineering</h3>
+                    <p>Master Kubernetes at scale, service meshes, eBPF-based observability, and the developer platform tools that enterprise teams rely on.</p>
+                    <span class="track-sessions">40 Sessions</span>
+                </div>
+
+                <div class="track-card">
+                    <div class="track-card-icon">🔒</div>
+                    <h3>Zero-Trust Security & DevSecOps</h3>
+                    <p>Integrate robust automated security guardrails directly into your CI/CD pipelines and master modern cryptographic supply-chain security.</p>
+                    <span class="track-sessions">22 Sessions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="logo">DEVCONF <span>2026</span></div>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter / X">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2h3.6l-7.9 9 9.3 11h-7.3l-5.7-6.9L4.3 22H.6l8.4-9.6L0 2h7.5l5.2 6.3L18.9 2zm-1.3 18h2L6.5 4H4.4l13.2 16z"/></svg>
+                </a>
+                <a href="#" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.8 5.4.8 11.7c0 5 3.2 9.3 7.7 10.8.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.5-3.8-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.7 1.2 3.3.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.2-3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.8 1.2 3 0 4.3-2.6 5.2-5.1 5.5.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.5-1.5 7.7-5.8 7.7-10.8C23.2 5.4 18.3.5 12 .5z"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM.5 8.98h9V23h-9V8.98zM13.98 8.98h8.6v2.02h.1c.85-1.5 2.94-2.34 4.9-2.34 5.24 0 6.4 3.16 6.4 7.28V23h-9v-6.65c0-1.58-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.5V23h-9V8.98z"/></svg>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 DevConf. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
